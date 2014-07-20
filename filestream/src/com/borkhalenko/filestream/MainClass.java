@@ -12,8 +12,8 @@ import java.util.UUID;
 
 public class MainClass {
     public static void main(String[] args) throws IOException{
-        Scanner inFile=new Scanner(new FileInputStream(".//filestream//files//data.dat"),"UTF-8");   //Linux
-        //Scanner inFile=new Scanner(new FileInputStream(".\\filestream\\files\\data.dat"),"UTF-8"); //Windows
+        Scanner inFile=new Scanner(new FileInputStream(".//filestream//files//data.dat"),"UTF-8");    //Linux
+        //Scanner inFile=new Scanner(new FileInputStream(".\\filestream\\files\\data.dat"),"UTF-8");  //Windows
         int count=0;
         while (inFile.hasNext()){
             Event event=parseToEvent(inFile.nextLine());
