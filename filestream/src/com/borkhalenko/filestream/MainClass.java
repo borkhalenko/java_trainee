@@ -12,13 +12,15 @@ import java.util.UUID;
 
 public class MainClass {
     public static void main(String[] args) throws IOException{
-        Scanner inFile=new Scanner(new FileInputStream(".\\filestream\\files\\data.dat"),"UTF-8");
+        Scanner inFile=new Scanner(new FileInputStream(".//filestream//files//data.dat"),"UTF-8");   //Linux
+        //Scanner inFile=new Scanner(new FileInputStream(".\\filestream\\files\\data.dat"),"UTF-8"); //Windows
         int count=0;
         while (inFile.hasNext()){
             Event event=parseToEvent(inFile.nextLine());
             System.out.println(event.toString());
         }
         System.out.println("Count:" + count);
+        System.out.println(System.getProperty("path.separator"));
     }
 
     public static Event parseToEvent(String str) {
@@ -36,9 +38,6 @@ public class MainClass {
         return event;
     }
 
-    public static String parseToString(Event e){
-            
-    }
 
     private static List<String> arrToCollection(String[] array){
         List<String> collection=new ArrayList<String>(array.length);
