@@ -3,9 +3,7 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/strategy_pattern/src/com/borkhalenko/strategy_pattern/strategy_pattern.xsl" />
-  </component>
+  <component name="IdProvider" IDEtalkID="EBF213FE23B319FB33A0BB6792AEDAF1" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
 </project>
 

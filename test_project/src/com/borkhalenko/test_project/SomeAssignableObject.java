@@ -10,14 +10,15 @@ public class SomeAssignableObject {
         return number;
     }
 
-    public SomeAssignableObject setNumber(int number) {
+    /*public SomeAssignableObject setNumber(int number) {
         return new SomeAssignableObject(number);
     }
+    */
 
-    /*
+
     public void setNumber(int number){
         this.number=number;
-    }*/
+    }
 
     @Override
     public String toString() {
