@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/RMISample/RMISample.iml" filepath="$PROJECT_DIR$/RMISample/RMISample.iml" />
       <module fileurl="file://$PROJECT_DIR$/RMISample/client/client.iml" filepath="$PROJECT_DIR$/RMISample/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_trainee.iml" filepath="$PROJECT_DIR$/java_trainee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jniSample/jniSample.iml" filepath="$PROJECT_DIR$/jniSample/jniSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/RMISample/server/server.iml" filepath="$PROJECT_DIR$/RMISample/server/server.iml" />
     </modules>
   </component>
